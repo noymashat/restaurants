@@ -1,0 +1,70 @@
+.div-restaurant-card {
+	display: flex;
+	justify-content: center;
+}
+
+.restaurant-card {
+	margin: 5px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	width: 450px;
+}
+
+.restaurant-card-body {
+	margin: 5px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	height: 180px;
+}
+
+p {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+.div-text {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+}
+
+.div-buttons {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.btn-card {
+	font-size: 10px;
+	height: 27px;
+	width: 65px;
+	margin-bottom: 5px;
+}
+
+.btn-card:hover,
+.btn-card:focus {
+	font-size: 10px;
+	height: 27px;
+	width: 65px;
+	margin-bottom: 5px;
+}
+
+.btn-card.btn.btn-primary:active {
+	font-size: 10px;
+	height: 27px;
+	width: 65px;
+	margin-bottom: 5px;
+}
+
+.edit-form {
+	margin-top: 15px;
+}
+.form-control-edit {
+	height: 20px;
+	margin-bottom: 10px;
+}

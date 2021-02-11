@@ -1,0 +1,31 @@
+@media only screen and (min-width: 600px) {
+	.jumbo {
+		background: url(../assets/jum.jpg);
+		background-size: cover;
+		background-position: center center;
+		height: auto;
+		width: 100%;
+		overflow: hidden;
+		position: absolute;
+	}
+
+	.p-height {
+		margin-top: 100px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.jumbo {
+		background: url(../assets/jum.jpg);
+		background-size: cover;
+		background-position: center center;
+		height: auto;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.p-height {
+		height: 100px;
+	}
+}

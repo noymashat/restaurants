@@ -1,0 +1,29 @@
+.search-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.search-input {
+	width: 250px;
+	height: 40px;
+	font-size: 18px;
+	font-size: 18px;
+	border-color: rgb(100, 100, 100);
+	outline-style: none;
+	border-radius: 7px;
+	padding: 10px;
+}
+
+.search-input:focus,
+.search-input:active {
+	width: 250px;
+	height: 40px;
+	font-size: 18px;
+	font-size: 18px;
+	border-color: rgb(100, 100, 100);
+	outline-style: none;
+	border-radius: 7px;
+	padding: 10px;
+}

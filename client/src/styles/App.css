@@ -1,0 +1,24 @@
+.App {
+	text-align: center;
+	background-color: rgb(20, 20, 20);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: calc(10px + 2vmin);
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+}
+
+.App-restaurants {
+	margin: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+	.App-restaurants {
+		margin-top: 300px;
+	}
+}
